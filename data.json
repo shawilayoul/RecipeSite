@@ -1,0 +1,640 @@
+{
+    "recettes": [
+        {
+            "nom": "Pâtes à la Bolognaise",
+            "description": "Des pâtes avec une sauce tomate riche à la viande hachée et aux épices.",
+            "ingredients": [
+                "Pâtes",
+                "Viande hachée",
+                "Sauce tomate",
+                "Oignon",
+                "Ail"
+            ],
+            "quantite": [
+                "250g",
+                "300g",
+                "2 tasses",
+                "1",
+                "2 gousses"
+            ],
+            "prix": "$",
+            "difficulte": "facile",
+            "temps_preparation": "40 minutes",
+            "allergenes": [],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "plat",
+            "image": "./images/pates-bolognaise.jpg",
+            "etapes_preparation": [
+                "Faire cuire les pâtes selon les instructions sur l'emballage.",
+                "Faire revenir l'oignon et l'ail dans une poêle.",
+                "Ajouter la viande hachée et faire cuire jusqu'à ce qu'elle soit dorée.",
+                "Verser la sauce tomate et laisser mijoter.",
+                "Servir la sauce sur les pâtes cuites."
+            ]
+        },
+        {
+            "nom": "Salade de Quinoa aux Légumes",
+            "description": "Une salade fraîche avec du quinoa, des légumes croquants et une vinaigrette légère.",
+            "ingredients": [
+                "Quinoa",
+                "Tomates",
+                "Concombre",
+                "Poivron",
+                "Vinaigrette"
+            ],
+            "quantite": [
+                "1 tasse",
+                "2",
+                "1",
+                "1",
+                "1/4 tasse"
+            ],
+            "prix": "$$",
+            "difficulte": "facile",
+            "temps_preparation": "25 minutes",
+            "allergenes": [],
+            "regime": [
+                "Végétarien",
+                "Sans gluten"
+            ],
+            "categorie": "entrée",
+            "image": "salade-quinoa-legumes.png",
+            "etapes_preparation": [
+                "Cuire le quinoa selon les instructions sur l'emballage.",
+                "Couper les tomates, le concombre et le poivron en dés.",
+                "Mélanger le quinoa cuit avec les légumes coupés.",
+                "Arroser de vinaigrette et mélanger délicatement.",
+                "Servir frais."
+            ]
+        },
+        {
+            "nom": "Boeuf Bourguignon",
+            "description": "Un plat classique français avec du bœuf mijoté dans du vin rouge, des légumes et des herbes.",
+            "ingredients": [
+                "Bœuf",
+                "Vin rouge",
+                "Carottes",
+                "Oignons",
+                "Bouquet garni"
+            ],
+            "quantite": [
+                "800g",
+                "1 bouteille",
+                "4",
+                "2",
+                "Thym, Laurier, Persil"
+            ],
+            "prix": "$$$",
+            "difficulte": "difficile",
+            "temps_preparation": "3 heures",
+            "allergenes": [],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "plat",
+            "image": "boeuf-bourguignon.jpg",
+            "etapes_preparation": [
+                "Couper le bœuf en cubes.",
+                "Faire revenir le bœuf dans une cocotte avec de l'huile.",
+                "Ajouter les légumes, le vin rouge et le bouquet garni.",
+                "Laisser mijoter à feu doux pendant 3 heures.",
+                "Servir chaud."
+            ]
+        },
+        {
+            "nom": "Blanquette de Veau",
+            "description": "Un plat français délicat avec du veau mijoté dans une sauce crémeuse avec des champignons.",
+            "ingredients": [
+                "Veau",
+                "Bouillon de volaille",
+                "Champignons",
+                "Crème fraîche",
+                "Oignons"
+            ],
+            "quantite": [
+                "600g",
+                "2 tasses",
+                "200g",
+                "1/2 tasse",
+                "2"
+            ],
+            "prix": "$$$",
+            "difficulte": "moyen",
+            "temps_preparation": "2 heures",
+            "allergenes": [
+                "Lactose"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "plat",
+            "image": "blanquette-de-veau.jpg",
+            "etapes_preparation": [
+                "Couper le veau en morceaux.",
+                "Faire revenir le veau dans une cocotte avec de l'huile.",
+                "Ajouter les champignons et les oignons.",
+                "Verser le bouillon de volaille et laisser mijoter pendant 2 heures.",
+                "Ajouter la crème fraîche avant de servir."
+            ]
+        },
+        {
+            "nom": "Quiche Lorraine",
+            "description": "Une tarte salée classique française avec des lardons et une garniture à base d'œufs et de crème.",
+            "ingredients": [
+                "Pâte brisée",
+                "Lardons",
+                "Oeufs",
+                "Crème fraîche",
+                "Fromage râpé"
+            ],
+            "quantite": [
+                "1",
+                "200g",
+                "3",
+                "200ml",
+                "1/2 tasse"
+            ],
+            "prix": "$$",
+            "difficulte": "moyen",
+            "temps_preparation": "45 minutes",
+            "allergenes": [
+                "Lactose",
+                "Œufs"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "plat",
+            "image": "quiche-lorraine.webp",
+            "etapes_preparation": [
+                "Préchauffer le four à 180°C.",
+                "Étaler la pâte brisée dans un moule à tarte.",
+                "Faire revenir les lardons dans une poêle.",
+                "Dans un bol, battre les œufs et ajouter la crème fraîche.",
+                "Verser le mélange d'œufs sur la pâte, ajouter les lardons et saupoudrer de fromage râpé.",
+                "Cuire au four pendant 30 minutes ou jusqu'à ce que la quiche soit dorée."
+            ]
+        },
+        {
+            "nom": "Ratatouille",
+            "description": "Un plat provençal savoureux avec des légumes mijotés comme l'aubergine, le poivron et la courgette.",
+            "ingredients": [
+                "Aubergine",
+                "Poivron",
+                "Courgette",
+                "Tomates",
+                "Oignons"
+            ],
+            "quantite": [
+                "1",
+                "1",
+                "1",
+                "4",
+                "2"
+            ],
+            "prix": "$$",
+            "difficulte": "moyen",
+            "temps_preparation": "1 heure",
+            "allergenes": [],
+            "regime": [
+                "Végétarien",
+                "Sans gluten"
+            ],
+            "categorie": "plat",
+            "image": "ratatouille.jpg",
+            "etapes_preparation": [
+                "Couper tous les légumes en morceaux.",
+                "Faire revenir les oignons dans une poêle.",
+                "Ajouter les légumes coupés et faire mijoter.",
+                "Assaisonner avec des herbes de Provence.",
+                "Servir chaud."
+            ]
+        },
+        {
+            "nom": "Tiramisu",
+            "description": "Un dessert italien classique avec des couches de biscuits imbibés de café et de crème mascarpone.",
+            "ingredients": [
+                "Biscuits à la cuillère",
+                "Café fort",
+                "Mascarpone",
+                "Œufs",
+                "Sucre"
+            ],
+            "quantite": [
+                "200g",
+                "1 tasse",
+                "250g",
+                "3",
+                "1/2 tasse"
+            ],
+            "prix": "$$",
+            "difficulte": "facile",
+            "temps_preparation": "30 minutes",
+            "allergenes": [
+                "Lactose",
+                "Œufs"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "dessert",
+            "image": "tiramisu.jpg",
+            "etapes_preparation": [
+                "Préparer du café fort et laisser refroidir.",
+                "Battre les jaunes d'œufs avec le sucre jusqu'à obtenir un mélange crémeux.",
+                "Ajouter le mascarpone et bien mélanger.",
+                "Tremper les biscuits dans le café et les disposer dans un plat.",
+                "Alterner les couches de biscuits et de crème mascarpone.",
+                "Réfrigérer pendant au moins 4 heures avant de servir."
+            ]
+        },{
+            "nom": "Sushi au Saumon",
+            "description": "Des délicieux sushis japonais avec du riz vinaigré, du saumon cru et des algues nori.",
+            "ingredients": [
+                "Riz à sushi",
+                "Saumon frais",
+                "Algue nori",
+                "Vinaigre de riz",
+                "Sauce soja"
+            ],
+            "quantite": [
+                "2 tasses",
+                "200g",
+                "10 feuilles",
+                "1/4 tasse",
+                "Pour servir"
+            ],
+            "prix": "$$$",
+            "difficulte": "difficile",
+            "temps_preparation": "1 heure",
+            "allergenes": [
+                "Poisson",
+                "Gluten"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "plat",
+            "image": "sushi-saumon.jpg",
+            "etapes_preparation": [
+                "Cuire le riz à sushi selon les instructions sur l'emballage et le mélanger avec le vinaigre de riz.",
+                "Disposer une couche de riz sur l'algue nori, ajouter une fine bande de saumon au centre.",
+                "Rouler l'algue nori en serrant légèrement.",
+                "Couper en tranches et servir avec de la sauce soja."
+            ]
+        },
+        {
+            "nom": "Smoothie aux Fruits",
+            "description": "Un mélange rafraîchissant de fruits variés avec du yaourt et du miel.",
+            "ingredients": [
+                "Banane",
+                "Fraises",
+                "Mangue",
+                "Yaourt nature",
+                "Miel"
+            ],
+            "quantite": [
+                "1",
+                "1 tasse",
+                "1 tasse",
+                "1 tasse",
+                "1 cuillère à soupe"
+            ],
+            "prix": "$",
+            "difficulte": "facile",
+            "temps_preparation": "10 minutes",
+            "allergenes": [
+                "Lactose"
+            ],
+            "regime": [
+                "Végétarien"
+            ],
+            "categorie": "boisson",
+            "image": "smoothie-fruits.jpeg",
+            "etapes_preparation": [
+                "Couper les fruits en morceaux.",
+                "Mixer les fruits avec le yaourt et le miel jusqu'à obtention d'une consistance lisse.",
+                "Verser dans un verre et servir immédiatement."
+            ]
+        },
+        {
+            "nom": "Salade de Poulet Caesar",
+            "description": "Une salade croustillante avec du poulet grillé, des croûtons, du parmesan et une vinaigrette Caesar.",
+            "ingredients": [
+                "Laitue romaine",
+                "Poulet grillé",
+                "Croûtons",
+                "Parmesan",
+                "Vinaigrette Caesar"
+            ],
+            "quantite": [
+                "1 tête",
+                "200g",
+                "1 tasse",
+                "1/2 tasse",
+                "1/4 tasse"
+            ],
+            "prix": "$$",
+            "difficulte": "moyen",
+            "temps_preparation": "30 minutes",
+            "allergenes": [
+                "Lactose",
+                "Gluten"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "entrée",
+            "image": "salade-caesar.jpeg",
+            "etapes_preparation": [
+                "Laver et déchiqueter la laitue romaine.",
+                "Griller le poulet et le couper en morceaux.",
+                "Mélanger la laitue, le poulet, les croûtons et le parmesan dans un grand bol.",
+                "Ajouter la vinaigrette Caesar et bien mélanger.",
+                "Servir immédiatement."
+            ]
+        },
+        {
+            "nom": "Crêpes",
+            "description": "Des crêpes légères et fines, parfaites pour le petit déjeuner ou le goûter.",
+            "ingredients": [
+                "Farine",
+                "Œufs",
+                "Lait",
+                "Sucre",
+                "Beurre"
+            ],
+            "quantite": [
+                "1 tasse",
+                "2",
+                "1 1/2 tasse",
+                "1 cuillère à soupe",
+                "Pour la cuisson"
+            ],
+            "prix": "$",
+            "difficulte": "facile",
+            "temps_preparation": "20 minutes",
+            "allergenes": [
+                "Lactose",
+                "Œufs"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "dessert",
+            "image": "crepes.webp",
+            "etapes_preparation": [
+                "Dans un bol, mélanger la farine, les œufs, le lait et le sucre jusqu'à obtenir une pâte lisse.",
+                "Faire chauffer une poêle, ajouter une noisette de beurre.",
+                "Verser une petite louche de pâte dans la poêle chaude et étaler en une fine couche.",
+                "Cuire des deux côtés jusqu'à ce qu'elles soient dorées.",
+                "Répéter jusqu'à épuisement de la pâte."
+            ]
+        },
+        {
+            "nom": "Pizza Maison",
+            "description": "Une pizza délicieuse avec une pâte faite maison et des garnitures au choix.",
+            "ingredients": [
+                "Pâte à pizza",
+                "Sauce tomate",
+                "Fromage",
+                "Champignons",
+                "Jambon"
+            ],
+            "quantite": [
+                "1 portion",
+                "1/2 tasse",
+                "1 tasse",
+                "1/2 tasse",
+                "100g"
+            ],
+            "prix": "$$",
+            "difficulte": "moyen",
+            "temps_preparation": "1 heure",
+            "allergenes": [
+                "Gluten",
+                "Lactose"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "plat",
+            "image": "pizza-champignons-jambon.jpg",
+            "etapes_preparation": [
+                "Préparer la pâte à pizza et l'étaler sur une plaque.",
+                "Étaler la sauce tomate sur la pâte.",
+                "Saupoudrer de fromage et ajouter les champignons et le jambon.",
+                "Cuire au four préchauffé à 200°C pendant 15-20 minutes.",
+                "Déguster chaud."
+            ]
+        },
+        {
+            "nom": "Gâteau au Chocolat",
+            "description": "Un gâteau moelleux au chocolat, parfait pour les amateurs de chocolat.",
+            "ingredients": [
+                "Farine",
+                "Sucre",
+                "Cacao en poudre",
+                "Œufs",
+                "Beurre"
+            ],
+            "quantite": [
+                "1 1/2 tasse",
+                "1 1/2 tasse",
+                "1/2 tasse",
+                "4",
+                "1/2 tasse"
+            ],
+            "prix": "$$",
+            "difficulte": "moyen",
+            "temps_preparation": "45 minutes",
+            "allergenes": [
+                "Gluten",
+                "Lactose",
+                "Œufs"
+            ],
+            "regime": [
+                "Non-végétarien"
+            ],
+            "categorie": "dessert",
+            "image": "gateau-chocolat.webp",
+            "etapes_preparation": [
+                "Préchauffer le four à 180°C et graisser un moule.",
+                "Dans un bol, mélanger la farine, le sucre, le cacao en poudre, les œufs et le beurre fondu.",
+                "Verser la pâte dans le moule et cuire au four pendant 30-35 minutes.",
+                "Laisser refroidir avant de démouler."
+            ]
+        },
+        {
+            "nom": "Tarte aux Pommes",
+            "description": "Une tarte classique aux pommes avec une croûte croustillante et une garniture moelleuse.",
+            "ingredients": [
+                "Pâte brisée",
+                "Pommes",
+                "Sucre",
+                "Cannelle",
+                "Compote de pommes"
+            ],
+            "quantite": [
+                "1",
+                "4-5",
+                "1/2 tasse",
+                "1 cuillère à café",
+                "1 tasse"
+            ],
+            "prix": "$$",
+            "difficulte": "facile",
+            "temps_preparation": "50 minutes",
+            "allergenes": [
+                "Gluten"
+            ],
+            "regime": [
+                "Végétarien"
+            ],
+            "categorie": "dessert",
+            "image": "tarte-pommes.webp",
+            "etapes_preparation": [
+                "Préchauffer le four à 200°C et étaler la pâte dans un moule à tarte.",
+                "Éplucher et trancher les pommes, les disposer sur la pâte.",
+                "Saupoudrer de sucre et de cannelle, puis ajouter la compote de pommes.",
+                "Cuire au four pendant 30-35 minutes jusqu'à ce que la croûte soit dorée."
+            ]
+        },
+        {
+            "nom": "Pâtes Primavera",
+            "description": "Des pâtes légères garnies de légumes de saison, assaisonnées d'huile d'olive et de basilic.",
+            "ingredients": [
+                "Pâtes",
+                "Courgette",
+                "Tomates cerises",
+                "Poivron",
+                "Basilic frais"
+            ],
+            "quantite": [
+                "250g",
+                "1",
+                "1 tasse",
+                "1",
+                "Quelques feuilles"
+            ],
+            "prix": "$$",
+            "difficulte": "facile",
+            "temps_preparation": "30 minutes",
+            "allergenes": [
+                "Gluten"
+            ],
+            "regime": [
+                "Végétarien"
+            ],
+            "categorie": "plat",
+            "image": "pates-primavera.webp",
+            "etapes_preparation": [
+                "Cuire les pâtes selon les instructions sur l'emballage.",
+                "Faire revenir les légumes dans de l'huile d'olive jusqu'à ce qu'ils soient tendres.",
+                "Mélanger les légumes avec les pâtes cuites.",
+                "Ajouter le basilic frais haché et servir chaud."
+            ]
+        },
+        {
+            "nom": "Salade Grecque",
+            "description": "Une salade fraîche avec des concombres, des tomates, des olives, du fromage feta et une vinaigrette grecque.",
+            "ingredients": [
+                "Concombres",
+                "Tomates",
+                "Olives Kalamata",
+                "Fromage feta",
+                "Vinaigrette grecque"
+            ],
+            "quantite": [
+                "2",
+                "2",
+                "1/2 tasse",
+                "200g",
+                "1/4 tasse"
+            ],
+            "prix": "$$",
+            "difficulte": "facile",
+            "temps_preparation": "20 minutes",
+            "allergenes": [],
+            "regime": [
+                "Végétarien"
+            ],
+            "categorie": "entrée",
+            "image": "salade-grecque.webp",
+            "etapes_preparation": [
+                "Couper les concombres et les tomates en dés.",
+                "Mélanger les concombres, les tomates, les olives et le fromage feta dans un grand bol.",
+                "Arroser de vinaigrette grecque et mélanger délicatement.",
+                "Servir immédiatement."
+            ]
+        },
+        {
+            "nom": "Curry de Légumes",
+            "description": "Un curry végétarien savoureux avec des légumes variés dans une sauce épicée à base de lait de coco.",
+            "ingredients": [
+                "Patates douces",
+                "Chou-fleur",
+                "Poivron rouge",
+                "Lait de coco",
+                "Pâte de curry"
+            ],
+            "quantite": [
+                "2",
+                "1/2 tête",
+                "1",
+                "1 tasse",
+                "2 cuillères à soupe"
+            ],
+            "prix": "$$",
+            "difficulte": "moyen",
+            "temps_preparation": "40 minutes",
+            "allergenes": [],
+            "regime": [
+                "Végétarien"
+            ],
+            "categorie": "plat",
+            "image": "curry-legumes.jpg",
+            "etapes_preparation": [
+                "Couper les légumes en morceaux.",
+                "Faire revenir les légumes dans une casserole avec la pâte de curry.",
+                "Ajouter le lait de coco et laisser mijoter jusqu'à ce que les légumes soient tendres.",
+                "Servir avec du riz basmati."
+            ]
+        },
+        {
+            "nom": "Houmous",
+            "description": "Une trempette crémeuse à base de pois chiches, de tahini, d'ail et de jus de citron.",
+            "ingredients": [
+                "Pois chiches en conserve",
+                "Tahini",
+                "Ail",
+                "Jus de citron",
+                "Huile d'olive"
+            ],
+            "quantite": [
+                "1 boîte",
+                "2 cuillères à soupe",
+                "2 gousses",
+                "1 citron",
+                "2 cuillères à soupe"
+            ],
+            "prix": "$",
+            "difficulte": "facile",
+            "temps_preparation": "15 minutes",
+            "allergenes": [],
+            "regime": [
+                "Végétarien",
+                "Végétalien"
+            ],
+            "categorie": "entrée",
+            "image": "houmous.jpeg",
+            "etapes_preparation": [
+                "Rincer et égoutter les pois chiches.",
+                "Mixer les pois chiches avec le tahini, l'ail, le jus de citron et l'huile d'olive jusqu'à obtention d'une consistance lisse.",
+                "Servir avec des légumes frais ou du pain pita."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+.card {
+    background-color: lightgray;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card img {
+    object-fit : cover;
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+}
+.card-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 500px;
+}
+.person{
+    display: flex;
+    align-items: center;
+}
+.number-person{
+    display: flex;
+    background-color: white;
+    align-items: center;
+     gap: 1rem;
+    width: 60px;
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+.person img {
+    height: 30px;
+}
+
+.add-btn button{
+    background-color: white;
+    width: 400px;
+    padding: 10px 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.heart img{
+    width: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+.infredient{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.infredient-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+.infredient-right{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+.ingredient-items{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.ingredient-items img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.preparation{
+    background-color: lightgray;
+    padding: 1rem;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.steps{
+    display: flex;
+}

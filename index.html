@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="home-container">
+        <div class="nav-bar">
+          <div class="navbar-left">
+            <h1>RecipeMe</h1>
+          </div>
+          <div class="navebar-right">
+            <div class="recettes navMenu">
+                <a href="index.html">Recipes</a>
+            </div>
+            <div class="planning navMenu">
+                <p>Planning</p>
+            </div>
+            <div class="user navMenu">
+                <img src="/assests/user.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="home">
+            <!-- left side is for the filter-->
+            <div class="left">
+                <h2>Filter</h2>
+                <div class="filter-items">
+                    <label for="cat">Catégories</label>
+                    <select name="Catégories" id="cat">
+                        <option>Entrée</option>
+                        <option>Plat</option>
+                        <option>Dessert</option>
+                    </select>
+                    <label for="diff">Difficulté</label>
+                    <select name="Difficulté" id="diff">
+                        <option>Facile</option>
+                        <option>Moyen</option>
+                        <option>Difficile</option>
+                    </select>
+                    <label for="prix">Prix</label>
+                    <select name="Prix" id="prix">
+                        <option>Bas</option>
+                        <option>Moyen</option>
+                        <option>Elevé</option>
+                    </select>
+                    <label for="temp">Temps</label>
+                    <select name="Temps" id="temp">
+                        <option>En min</option>
+                        <option>En heure</option>
+                        <option>En minutes</option>
+                    </select>
+                    <label for="allerg">Allergènes</label>
+                    <select name="Allergènes" id="allerg">
+                        <option>Arachides</option>
+                        <option>gluten</option>
+                    </select>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top-right">
+                    <div class="search-bar">
+                        <form class="form">
+                            <label for="search"> </label>
+                            <input type="text" class="search"  id="search" placeholder="search recipe">
+                          <button type="submit" class="searchIcon">
+                            <svg class="searchIcon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px"><path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"/></svg>
+                          </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="bottom-right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NE PAS TOUCHER : lien vers recette détaillée -->
+    <a href="recipedetails.html">Ne pas toucher : lien vers la recette détaillée</a>
+    <script src="index.js"></script>
+</body>
+
+</html>
