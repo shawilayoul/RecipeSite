@@ -74,9 +74,9 @@ const searchData = (text) => {
             <div class="bottom-card-container">
               
               <a href="recipedetails.html?param1=${element.recipe.label}" class="card-btn"><button style="width: 100%; height: 100%">Voir la recette</button></a>
-                <div class="like-btn">
-                  <img class="like-img" src="assests/like.svg">
-                </div>
+               <div class="like-btn like">
+              <img id="like-img" src="assests/like.svg">
+            </div>
             </div>
         </div>
        `;
@@ -105,3 +105,9 @@ const Chicken = "Chicken";
     document.querySelector(".valider").addEventListener("click", () => {
       searchData(fish);
     });
+  
+   
+  
+    /*.addEventListener('click',()=>{
+      yhis.style.backgroundColor = 'red';
+    })*/
