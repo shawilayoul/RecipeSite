@@ -226,3 +226,42 @@ a:focus {
     margin-right: 20px;
     cursor: pointer; 
 }
+
+/* mobile responsive*/
+@media only screen and (max-width: 600px) {
+    .nav-bar h1{
+        font-size: 18px;
+        color: orangered;
+      }
+      .navebar-right {
+        display: none;
+      }
+      .nav-bar-middle{
+        width: 200px;
+      }
+      .search-bar{
+        width: 200px;
+      }
+  .left{
+    display: none;
+  }
+  .bottom-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+    grid-auto-rows: minmax(150px, auto);
+    margin: 30px 5%;
+    width: 90%;
+    z-index: -1;
+}
+.bottom-right-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+    grid-auto-rows: minmax(150px, auto);
+    margin: 30px 5%;
+    width: 90%;  
+    z-index: -1;
+}
+  
+}
