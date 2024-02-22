@@ -87,28 +87,29 @@ const getData = (recipe) => {
           <h3>Préparation</h3>
           <div classs="steps">
           <p>Step1: </p>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random textLorem Ipsum is not simply random text</p>
-          <p>professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
+          <p>Séparez votre liste d'ingrédients de la méthode.</p>
+          <p>Chaque ingrédient apparaît dans le même ordre que dans l'exécution de la recette.</p>
           </div>
           <div classs="steps">
           <p>Step2: </p>
-          <p>professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
-          <p>professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
+          <p>Chaque ingrédient a sa propre gamme.</p>
+        
           </div>
           <div classs="steps">
           <p>Step3: </p>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random textLorem Ipsum is not simply random text</p>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random textLorem Ipsum is not simply random text</p>
+          <p>Soyez précis avec les noms des ingrédients. (par exemple, « huile de canola » au lieu de « huile »</p>
+  
           </div>
           <div classs="steps">
           <p>Step4: </p>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random textLorem Ipsum is not simply random text</p>
-          <p>professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
+          <p>Donner la préparation exacte des ingrédients dans la liste au lieu d'encombrer la recette (ex. : « pois chiches cuits et égouttés »)</p>
+    
           </div>
           <div classs="steps">
           <p>Step5: </p>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random textLorem Ipsum is not simply random text</p>
-          <p>professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
+          <p>Chaque ingrédient a sa propre gamme.
+          Donnez une mesure précise pour chaque ingrédient avec les bonnes unités.</p>
+    
           </div>
           </div>
          </div>
