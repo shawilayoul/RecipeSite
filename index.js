@@ -1,4 +1,4 @@
-const getData = (text = Chicken) => {
+const getData = (text) => {
   const menu = document.querySelector(".bottom-right");
   fetch(
     `https://api.edamam.com/search?q=${text}&app_id=a45406ec&app_key=b397ce28f04c7433ea698cbf94b2a1e1`
@@ -44,12 +44,12 @@ const getData = (text = Chicken) => {
 // search for recipe from search bar
 const form = document.querySelector(".form");
 form.addEventListener("submit", (e) => {
-  const inputValueText = document.querySelector("input[type='text']");
-  if (inputValueText.ariaValueMax.length > 0) {
+  const inputValueText = document.querySelector("input[type='text']").value;
+  if (inputValueText.length > 0) {
     e.preventDefault();
-    getData(inputValueText.value);
-    inputValueText = "";
+    getData(inputValueText);
   }
+ document.querySelector("input[type='text']") == " ";
 });
-const Chicken = "Chicken";
-getData(Chicken);
+//const Chicken = "Chicken";
+//getData(Chicken);

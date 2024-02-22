@@ -105,11 +105,25 @@ a:focus {
 .searchIcon{
     width: 10px;
 }
+.form{
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+    justify-content: center;
 
-.search-bar {
-    border-radius: 10px;
-    border: 2px solid #9381ff;
-    padding: 10px;
+}
+.searchIcon{
+ width: 2rem;
+ cursor: pointer;
+}
+.form button{
+    background-color: white;
+    border: none;
+}
+.form input{
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 300px;
 }
 
 .bottom-right {
