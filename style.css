@@ -232,15 +232,17 @@ a:focus {
     .nav-bar h1{
         font-size: 18px;
         color: orangered;
+        margin-left:5px;
+        margin-right: 5px;
       }
       .navebar-right {
         display: none;
       }
       .nav-bar-middle{
-        width: 200px;
+        width: 500px;
       }
       .search-bar{
-        width: 200px;
+        width: 400px;
       }
   .left{
     display: none;
@@ -248,19 +250,19 @@ a:focus {
   .bottom-right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3%;
+    grid-gap: 5%;
     grid-auto-rows: minmax(150px, auto);
     margin: 30px 5%;
-    width: 90%;
+    width: 100%;
     z-index: -1;
 }
 .bottom-right-top{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3%;
+    grid-gap: 5%;
     grid-auto-rows: minmax(150px, auto);
     margin: 30px 5%;
-    width: 90%;  
+    width: 100%;  
     z-index: -1;
 }
   

@@ -19,9 +19,14 @@ const getData = (recipe) => {
         menu.innerHTML += template;
         }*/
       // data.hits[0].recipe.label;
-      console.log(data.hits[0].recipe.ingredients[0]);
+      //console.log(data.hits[0].recipe.ingredients[0]);
       const template = `
           <div class="card">
+          <div class= "card-top">
+          <a href="index.html">
+           <img src="/assests/arrow.png" alt="arrow"/>
+          </a>
+          </div>
           <p>${data.hits[0].recipe.label}</p>
           <img src=${data.hits[0].recipe.image} alt="recet">
           <div class="card-detail">
@@ -132,5 +137,4 @@ const getData = (recipe) => {
 let urlParams = new URLSearchParams(window.location.search);
 
 let recipeName = urlParams.get("param1");
-console.log(recipeName);
 getData(recipeName);

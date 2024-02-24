@@ -5,14 +5,31 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    position: relative;
+}
+
+.card-top{
+    position: absolute;
+    left: 10px;
+}
+.card-top a {
+    text-decoration: none;
+    color: blue;
+}
+
+.card-top a img {
+    width: 30px;
+    height: 30px;
+    color: blue;
 }
 
 .card img {
-    object-fit : cover;
+    object-fit: cover;
     width: 500px;
     height: 350px;
     border-radius: 8px;
 }
+
 .card-detail {
     display: flex;
     align-items: center;
@@ -20,24 +37,27 @@
     gap: 1rem;
     width: 500px;
 }
-.person{
+
+.person {
     display: flex;
     align-items: center;
 }
-.number-person{
+
+.number-person {
     display: flex;
     background-color: white;
     align-items: center;
-     gap: 1rem;
+    gap: 1rem;
     width: 60px;
     padding: 3px 10px;
     border-radius: 8px;
 }
+
 .person img {
     height: 30px;
 }
 
-.add-btn button{
+.add-btn button {
     background-color: white;
     width: 400px;
     padding: 10px 8px;
@@ -45,42 +65,50 @@
     border: none;
     cursor: pointer;
 }
-.heart img{
+
+.heart img {
     width: 30px;
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: 25px;
 }
-.infredient{
+
+.infredient {
     display: flex;
     justify-content: center;
     gap: 5rem;
 }
-.infredient-left{
+
+.infredient-left {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 2rem;
     gap: 1rem;
 }
-.infredient-right{
+
+.infredient-right {
     display: flex;
     flex-direction: column;
     padding: 2rem;
     gap: 1rem;
 }
-.ingredient-items{
+
+.ingredient-items {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
-.ingredient-items img{
+
+.ingredient-items img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
-.preparation{
+
+.preparation {
     background-color: lightgray;
     padding: 1rem;
     height: 580px;
@@ -89,6 +117,48 @@ h3{
     justify-content: center;
     align-items: center;
 }
-.steps{
+
+.steps {
     display: flex;
+}
+
+/* mobile responsive*/
+@media only screen and (max-width: 600px) {
+
+    .card img {
+        object-fit: cover;
+        width: 350px;
+        height: 350px;
+        border-radius: 8px;
+    }
+
+    .card-top {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .card-top img {
+        width: 30px;
+        height: 30px;
+        color: blue;
+    }
+
+    .card-detail {
+        display: none;
+    }
+
+    .infredient {
+        display: flex;
+        justify-content: center;
+        gap: 0rem;
+    }
+
+    .infredient-right {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+    }
 }
